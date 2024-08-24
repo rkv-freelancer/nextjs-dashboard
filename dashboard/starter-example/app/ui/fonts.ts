@@ -11,9 +11,28 @@ export const lusitana = Lusitana({
 export const cabinetGrotesk = localFont({
   src: [
     {
-      path: '@/fonts/CabinetGrotesk-Black.woff',
+      path: '../../public/fonts/cabinet-grotesk/CabinetGrotesk-Black.woff',
       weight: '800',
       style: 'normal',
     },
   ],
+});
+
+export const satoshi = localFont({
+  src: [
+    {
+      path: '../../public/fonts/satoshi/Satoshi-Variable.eot',
+    },
+    {
+      path: '../../public/fonts/satoshi/Satoshi-Variable.woff',
+    },
+    {
+      path: '../../public/fonts/satoshi/Satoshi-Variable.woff2',
+    },
+  ],
+  weight: '100 900',
+  style: 'normal',
+  display: 'swap',
+  adjustFontFallback: 'Arial',
+  variable: '--font-satoshi',
 });
