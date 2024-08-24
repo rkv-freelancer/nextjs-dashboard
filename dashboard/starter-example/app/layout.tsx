@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import { satoshi } from '@/app/ui/fonts';
+import { satoshi, lusitana } from '@/app/ui/fonts';
 
 export default function RootLayout({
   children,
